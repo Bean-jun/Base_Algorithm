@@ -13,3 +13,9 @@ def recursion_binary_search(lists, left_number, right_number, number):
 
         return recursion_binary_search(lists, left_number, middle_number, number)
 
+if __name__ == "__main__":
+    '''测试查找'''
+    list01 = [i for i in range(100)]
+    print('原列表：' + str(list01))
+    # 开始查找
+    recursion_binary_search(list01, list01[0], list01[-1], 35)

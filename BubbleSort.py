@@ -19,3 +19,11 @@ def bubble_sort(lists):
 
     return lists
 
+if __name__ == "__main__":
+    '''测试排序'''
+    from random import randint
+    list01 = [randint(1, 10000) for i in range(40)]
+    print('原列表：' + str(list01))
+    # 开始排序
+    list02 = bubble_sort(list01)
+    print('排序后' + str(list02))

@@ -14,3 +14,12 @@ def binary_search(lists, number):
 
         else:
             right_number = middle_number
+
+
+if __name__ == "__main__":
+    '''测试查找'''
+    list01 = [i for i in range(100)]
+    print('原列表：' + str(list01))
+    # 开始查找
+    binary_search(list01, 35)
+    
