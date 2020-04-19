@@ -10,7 +10,6 @@ def recursion_binary_search(lists, left_number, right_number, number):
 
         return recursion_binary_search(lists, middle_number, right_number, number)
     else:
-
         return recursion_binary_search(lists, left_number, middle_number, number)
 
 if __name__ == "__main__":
