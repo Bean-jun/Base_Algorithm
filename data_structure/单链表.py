@@ -1,5 +1,7 @@
-'''单链表的操作'''
+# _*_ conding: UTF-8 _*_
 
+
+# 单链表
 class Node():
     '''创建单链表节点类'''
     def __init__(self,data,next=None):
