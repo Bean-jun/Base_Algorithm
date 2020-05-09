@@ -36,9 +36,15 @@
 
 ### 栈和队列 Stack && Queue
 
-1. [栈](data_structure/stack.py)
-2. [队列](data_structure/queue.py)
-3. [双端队列](data_structure/deque.py)
+1. [栈](data_structure/栈.py)
+    - 结构图   
+    ![alt](data_structure/img/栈结构图.png)
+2. [队列](data_structure/队列.py)
+    - 结构图   
+    ![alt](data_structure/img/队列结构图.png)
+3. [双端队列](data_structure/双端队列.py)
+    - 结构图   
+    ![alt](data_structure/img/双端队列结构图.png)
 
 ### 链表 Linked List
 
