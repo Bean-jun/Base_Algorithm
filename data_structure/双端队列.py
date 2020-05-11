@@ -1,3 +1,5 @@
+# -*- coding:UTF-8 -*-
+
 class Deque():
     '''双端队列'''
     def __init__(self):

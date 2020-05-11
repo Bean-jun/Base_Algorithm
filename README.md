@@ -34,7 +34,7 @@
 
 ---
 
-### 栈和队列 Stack && Queue
+### 一、栈和队列 Stack && Queue
 
 1. [栈](data_structure/栈.py)
     - 结构图   
@@ -46,7 +46,7 @@
     - 结构图   
     ![alt](data_structure/img/双端队列结构图.png)
 
-### 链表 Linked List
+### 二、 链表 Linked List
 
 1. [单链表](data_structure/单链表.py)
     - 结构图   
@@ -58,13 +58,25 @@
     - 结构图   
     ![alt](data_structure/img/双向链表结构图.png)
 
-### 数组 Array
+### 三、 树
+1. [基础定义及相关性质内容](data_structure/doc/树.md)
+    - 结构图
+    ![alt](data_structure/img/树的遍历方式.png)
+    - 另外可以参考浙江大学数据结构课程中关于遍历方式的图，讲的十分详细
+    ![alt](data_structure/img/先中后序遍历的规则图.png)
+3. [使用链表实现二叉树的存储](data_structure/二叉树.py)
+4. 二叉查找树
+    - 非空左子树的所有键值小于根节点的键值
+    - 非空右子树的所有键值大于根节点的键值
+    - 左右子树都是二叉查找树
 
-### 哈希表 Hash Table
+### 四、 数组 Array
 
-### 二叉树 Binary Tree
+### 五、 哈希表 Hash Table
 
-### 堆 Heap
+### 六、 二叉树 Binary Tree
+
+### 七、 堆 Heap
 
 ### 并查集 Union Find
 

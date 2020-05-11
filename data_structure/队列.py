@@ -1,3 +1,5 @@
+# -*- coding:UTF-8 -*-
+
 class Queue():
     '''队列'''
     def __init__(self):

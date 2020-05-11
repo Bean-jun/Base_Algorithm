@@ -1,4 +1,4 @@
-# _*_ conding: UTF-8 _*_
+# -*- coding:UTF-8 -*-
 
 
 # 单链表

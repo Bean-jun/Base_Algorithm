@@ -1,3 +1,5 @@
+# -*- coding:UTF-8 -*-
+
 class Stack():
     '''栈'''
     def __init__(self):
