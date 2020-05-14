@@ -2,7 +2,7 @@
 
 
 class MinHeap():
-    '''最大堆的实现'''
+    '''最小堆的实现'''
     def __init__(self):
         '''初始化-使用列表实现'''
         self.heaplist = [0]
