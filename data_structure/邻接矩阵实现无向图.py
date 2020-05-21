@@ -40,10 +40,9 @@ class Graph():
             if i == n:
                 if self.start.index(n) != 0:
                     for index,val in enumerate(self.wight):
-                        if (index+1) % (self.start.index(n)+1) == 0:
-                            if val != None:
-                                temp = self.start[(index+1) // (self.start.index(n)+1)-1]
-                                new_val.append([temp,val]) 
+                        if (index+1) % (self.start.index(n)+1) == 0 and val != None:
+                            temp = self.start[(index+1) // (self.start.index(n)+1)-1]
+                            new_val.append([temp,val])
                     return new_val
                 elif self.start.index(n) == 0:
                     new_list = self.wight[:self.count_vertex]
