@@ -1,19 +1,21 @@
 def binary_search(lists, number):
     '''二分查找搜索'''
     left_number = 0
-    right_number = len(lists)
+    right_number = len(lists) - 1
 
-    while left_number < right_number:
+    while left_number <= right_number:
         middle_number = (left_number + right_number) // 2
         if number == lists[middle_number]:
             way = middle_number + 1
             print('该数所在列表位置是：' + str(way))
             break
         elif number > lists[middle_number]:
-            left_number = middle_number
+            left_number = middle_number + 1
 
         else:
-            right_number = middle_number
+            right_number = middle_number - 1
+    if right_number < left_number:
+        print(-1)
 
 
 if __name__ == "__main__":
@@ -21,5 +23,5 @@ if __name__ == "__main__":
     list01 = [i for i in range(100)]
     print('原列表：' + str(list01))
     # 开始查找
-    binary_search(list01, 35)
+    binary_search(list01, 100)
     
