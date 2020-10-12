@@ -120,11 +120,18 @@
 
     利用最小堆（最大堆）的原理实现排序，具体可以参考数据结构部分中有关最小堆（最大堆）的介绍。
 
-### 二、二分搜索 Binary Search
+### 二、查找算法
 
-1. [二分搜索策略](algorithm/BinarySearch.py)
-2. [递归二分搜索策略](algorithm/RecursionBinarySearch.py)
-
+1. 二分搜索 Binary Search
+    
+    - [二分搜索策略](algorithm)
+         - [Python实现](algorithm/BinarySearch.py)
+         - [C++实现](algorithm/BinarySearch.cpp)
+         
+    - [递归二分搜索策略](algorithm/RecursionBinarySearch.py)
+         - [Python实现](algorithm/RecursionBinarySearch.py)
+         - [C++实现](algorithm/RecursionBinarySearch.cpp)
+     
 <!-- ### 分治 Divide Conquer
 
 ### 宽度优先搜索 Breadth Frist Search
